@@ -6,6 +6,14 @@
 
 **Related:** [HTC Weather Flip Clock](https://github.com/neptaligonzalez7-afk/htc-weather-flip-clock) — Sense-style home-screen widget with Open-Meteo weather.
 
+## Screenshots
+
+| Ocean blue | Crimson red |
+|------------|-------------|
+| ![Ocean blue live wallpaper](./screenshots/ocean-blue.jpg) | *(coming soon)* |
+
+Lock screen / home screen may show your clock and weather widgets; the wallpaper is the blue or red bokeh gradient behind them.
+
 ## Download
 
 Get builds from **[Releases](https://github.com/neptaligonzalez7-afk/htc-sense-live-wallpaper/releases)**.
