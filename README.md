@@ -71,6 +71,6 @@ See [LICENSE](./LICENSE). HTC Sense names and assets are trademarks of their res
 
 Open a **GitHub Issue** with device model, **Android version**, launcher name, **APK filename**, and a short screen recording of the wallpaper (home + lock screen if relevant).
 
----
+## Support (optional)
 
-**Support (optional)** — [Buy me a coffee](https://buymeacoffee.com/neta4457).
+If this wallpaper is useful on your phone, you can [buy me a coffee](https://buymeacoffee.com/neta4457). Thanks for trying it.
