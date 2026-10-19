@@ -24,7 +24,7 @@ All variants share package **`com.htc.android.wallpaper`**. Only **one** APK can
 |---------|------|-------------|-------------|-------------|
 | **Rainbow** | `HTC-Sense-LiveWallpaper-android36.apk` | **74** | `1.04-rainbow` | Classic multi-color Sense look (original thumbnail style) |
 | **Ocean blue** | `HTC-Sense-LiveWallpaper-ocean-blue.apk` | **70** | `1.01-ocean-blue` | Smooth blue gradient; depth-of-field bubbles |
-| **Crimson red** | `HTC-Sense-LiveWallpaper-crimson.apk` | **69** | `1.02-crimson` | Red gradient with lighter highlight (top-right) |
+| **Crimson red** | `HTC-Sense-LiveWallpaper-crimson.apk` | **75** | `1.03-crimson` | Red gradient with lighter highlight (top-right) |
 
 Pick the color you want from **Releases** (each variant has its own download). **Releases → Latest** highlights **ocean blue** as the default blue build; **rainbow** and **crimson** are on their own release pages.
 
@@ -56,8 +56,8 @@ Bubbles are white/translucent; color comes from the background. Some medium/larg
 |---------|-------------|
 | Black or frozen wallpaper | Re-select **HTC Sense** in the picker; reboot once. |
 | Still shows old colors after install | Uninstall → reinstall → pick wallpaper again. |
-| “App not installed” | Uninstall any existing **HTC Sense** wallpaper app, then retry. |
-| Won’t install a different color | Uninstall the current wallpaper app first, then install the color you want. |
+| “App not installed” | Often a **version downgrade**: use the newest release for that color (e.g. crimson **v75+** after rainbow **v74**). If it still fails, uninstall **HTC Sense** wallpaper, then retry. |
+| Won’t install a different color | Same package for all colors — install only if the new APK’s **versionCode** is **≥** what is on the phone, or uninstall first. |
 
 ## Signing
 
