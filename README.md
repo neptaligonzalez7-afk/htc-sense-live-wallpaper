@@ -22,7 +22,7 @@ All variants share package **`com.htc.android.wallpaper`**. Only **one** APK can
 
 | Variant | File | versionCode | versionName | Description |
 |---------|------|-------------|-------------|-------------|
-| **Rainbow** | `HTC-Sense-LiveWallpaper-android36.apk` | **54** | `1.00-android36` | Classic multi-color Sense look (original thumbnail style) |
+| **Rainbow** | `HTC-Sense-LiveWallpaper-android36.apk` | **74** | `1.04-rainbow` | Classic multi-color Sense look (original thumbnail style) |
 | **Ocean blue** | `HTC-Sense-LiveWallpaper-ocean-blue.apk` | **70** | `1.01-ocean-blue` | Smooth blue gradient; depth-of-field bubbles |
 | **Crimson red** | `HTC-Sense-LiveWallpaper-crimson.apk` | **69** | `1.02-crimson` | Red gradient with lighter highlight (top-right) |
 

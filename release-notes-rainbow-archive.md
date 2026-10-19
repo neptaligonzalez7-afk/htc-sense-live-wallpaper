@@ -1,8 +1,8 @@
 ## HTC Sense Bokeh Live Wallpaper — Rainbow
 
 - **Package:** `com.htc.android.wallpaper`
-- **versionCode:** `54`
-- **versionName:** `1.00-android36`
+- **versionCode:** `74` (see release **live-wallpaper-rainbow-v74**; v54 is superseded)
+- **versionName:** `1.04-rainbow`
 - **minSdk:** 24 · **targetSdk:** 36
 
 Classic **multi-color Sense** look (original Bokeh thumbnail style) with the same bokeh bubble field as the blue and red variants.
