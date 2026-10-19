@@ -13,4 +13,4 @@ Smooth ocean gradient with Sense-style bokeh bubbles (Java/OpenGL port for 64-bi
 2. Install, then choose **HTC Sense** in **Live wallpapers**.
 3. If the home screen still shows an old theme, switch wallpaper once and select **HTC Sense** again.
 
-For crimson/red or the rainbow archive build, see other releases in this repo.
+For crimson/red or rainbow, see other releases in this repo.

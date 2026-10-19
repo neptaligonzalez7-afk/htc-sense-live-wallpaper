@@ -2,7 +2,7 @@
 
 | File | Variant |
 |------|---------|
-| `rainbow.jpg` | Rainbow archive (v54) — lock screen sample |
+| `rainbow.jpg` | Rainbow (v54) — lock screen sample |
 | `ocean-blue.jpg` | Ocean blue (v70) — lock screen sample |
 | `crimson.jpg` | Crimson (v69) — lock screen sample |
 

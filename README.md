@@ -8,9 +8,9 @@
 
 ## Screenshots
 
-| Rainbow (archive) | Ocean blue | Crimson red |
-|-------------------|------------|-------------|
-| ![Rainbow archive live wallpaper](./screenshots/rainbow.jpg) | ![Ocean blue live wallpaper](./screenshots/ocean-blue.jpg) | ![Crimson live wallpaper](./screenshots/crimson.jpg) |
+| Rainbow | Ocean blue | Crimson red |
+|---------|------------|-------------|
+| ![Rainbow live wallpaper](./screenshots/rainbow.jpg) | ![Ocean blue live wallpaper](./screenshots/ocean-blue.jpg) | ![Crimson live wallpaper](./screenshots/crimson.jpg) |
 
 Lock screen / home screen may show your clock and weather widgets; the wallpaper is the bokeh gradient behind them.
 
@@ -22,11 +22,11 @@ All variants share package **`com.htc.android.wallpaper`**. Only **one** APK can
 
 | Variant | File | versionCode | versionName | Description |
 |---------|------|-------------|-------------|-------------|
-| **Rainbow (archive)** | `HTC-Sense-LiveWallpaper-android36.apk` | **54** | `1.00-android36` | Original Sense rainbow / thumbnail look; reference build |
+| **Rainbow** | `HTC-Sense-LiveWallpaper-android36.apk` | **54** | `1.00-android36` | Classic multi-color Sense look (original thumbnail style) |
 | **Ocean blue** | `HTC-Sense-LiveWallpaper-ocean-blue.apk` | **70** | `1.01-ocean-blue` | Smooth blue gradient; depth-of-field bubbles |
 | **Crimson red** | `HTC-Sense-LiveWallpaper-crimson.apk` | **69** | `1.02-crimson` | Red gradient with lighter highlight (top-right) |
 
-**Naming:** each release attaches the APK filename above (or `-v<TAG>` suffix if we ship multiple builds of the same variant). Pick **Releases → Latest** for the recommended blue build unless you want crimson or the archive.
+Pick the color you want from **Releases** (each variant has its own download). **Releases → Latest** highlights **ocean blue** as the default blue build; **rainbow** and **crimson** are on their own release pages.
 
 ## Requirements
 
@@ -40,18 +40,11 @@ All variants share package **`com.htc.android.wallpaper`**. Only **one** APK can
 3. Install the APK.
 4. **Wallpapers** → **Live wallpapers** → **HTC Sense** (or your launcher’s wallpaper picker).
 5. After an upgrade, if the look does not update, pick another wallpaper briefly, then select **HTC Sense** again.
-
-Developers:
-
-```bash
-adb install -r HTC-Sense-LiveWallpaper-ocean-blue.apk
-```
-
-**Downgrades:** Android may block installing an older **versionCode** over a newer one (e.g. crimson **69** over ocean **70**). Uninstall the live wallpaper app first, or install the build with the higher **versionCode**.
+6. **Switching colors** (rainbow, blue, or red)? Uninstall the existing **HTC Sense** wallpaper app first, then install the new APK.
 
 ## Variants explained
 
-- **Rainbow / android36** — Classic multi-color Sense look from the original thumbnail; preserved reference build (v54).
+- **Rainbow** — Classic HTC Sense multi-color gradient (like the original Bokeh thumbnail).
 - **Ocean blue** — Royal/azure gradient (smooth shader background, no banding).
 - **Crimson** — Same bubble field and focus behavior; red tones with a stronger light side.
 
@@ -63,8 +56,8 @@ Bubbles are white/translucent; color comes from the background. Some medium/larg
 |---------|-------------|
 | Black or frozen wallpaper | Re-select **HTC Sense** in the picker; reboot once. |
 | Still shows old colors after install | Uninstall → reinstall → pick wallpaper again. |
-| “App not installed” | Uninstall any existing **`com.htc.android.wallpaper`** build, then retry. |
-| Won’t install over another variant | Same package — uninstall first, or use the higher **versionCode** build. |
+| “App not installed” | Uninstall any existing **HTC Sense** wallpaper app, then retry. |
+| Won’t install a different color | Uninstall the current wallpaper app first, then install the color you want. |
 
 ## Signing
 
