@@ -10,7 +10,7 @@
 
 | Ocean blue | Crimson red |
 |------------|-------------|
-| ![Ocean blue live wallpaper](./screenshots/ocean-blue.jpg) | *(coming soon)* |
+| ![Ocean blue live wallpaper](./screenshots/ocean-blue.jpg) | ![Crimson live wallpaper](./screenshots/crimson.jpg) |
 
 Lock screen / home screen may show your clock and weather widgets; the wallpaper is the blue or red bokeh gradient behind them.
 
